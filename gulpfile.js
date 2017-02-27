@@ -37,9 +37,9 @@ gulp.task('serve', [], function () {
         }
     });
     gulp.watch(['*.html'], reload);
-    gulp.watch(['js/*.js'], reload);
-    gulp.watch(['scss/*.css'], reload);
-    gulp.watch(['assets/images/*.css'], reload);
+    gulp.watch(['dist/js/*.js'], reload);
+    gulp.watch(['dist/css/*.css'], reload);
+    gulp.watch(['dist/assets/images/*.css'], reload);
 });
 
 // Watch Files For Changes
