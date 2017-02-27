@@ -37,6 +37,7 @@ gulp.task('serve', [], function () {
         }
     });
     gulp.watch(['*.html'], reload);
+    gulp.watch(['dist/html/*.html'], reload);
     gulp.watch(['dist/js/*.js'], reload);
     gulp.watch(['dist/css/*.css'], reload);
     gulp.watch(['dist/assets/images/*.css'], reload);
