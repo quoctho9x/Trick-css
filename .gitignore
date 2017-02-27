@@ -1,0 +1,10 @@
+/.idea/
+/www/
+/bower_components/
+/node_modules/
+/root/
+/dist/
+/scss/
+gulpfile.js
+package.json
+wp-config.php
