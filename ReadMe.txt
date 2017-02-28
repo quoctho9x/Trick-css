@@ -6,3 +6,5 @@
 <!-------
 he thong tu dong reload page neu co file html, css, scss, js nao thay doi
 -------!>
+
+de cai dat plugin moi va save vao file package.json "npm install 'plugin'  --save-dev " Package will appear in your devDependencies

@@ -4,5 +4,6 @@
 /node_modules/
 /root/
 /scss/
+/dist/
 gulpfile.js
 wp-config.php

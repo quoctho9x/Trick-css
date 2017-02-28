@@ -28,6 +28,11 @@ gulp.task('scripts', function() {
     return gulp.src('js/*.js')
         .pipe(gulp.dest('dist/js'));
 });
+// Compile Our html
+gulp.task('html', function() {
+    return gulp.src('html/*.html')
+        .pipe(gulp.dest('dist/html'));
+});
 // browserSync
 gulp.task('serve', [], function () {
     browserSync({
@@ -49,4 +54,4 @@ gulp.task('watch', function() {
     gulp.watch('scss/*.scss', ['sass']);
 });
 // Default Task
-gulp.task('default', ['lint', 'sass', 'scripts', 'watch','serve']);
+gulp.task('default', ['lint', 'sass', 'scripts','html', 'watch','serve']);
